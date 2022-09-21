@@ -1,17 +1,24 @@
-[2022-09-20 21:24:05.354] [INFO ] [Test worker] com.springboot.test.TestApplicationTests Starting TestApplicationTests using Java 11.0.16.1 on risker with PID 7688 (started by roakf in C:\dev\spring_study\test)
-[2022-09-20 21:24:05.355] [INFO ] [Test worker] com.springboot.test.TestApplicationTests No active profile set, falling back to 1 default profile: "default"
-[2022-09-20 21:24:05.840] [INFO ] [Test worker] org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-[2022-09-20 21:24:05.878] [INFO ] [Test worker] org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 32 ms. Found 1 JPA repository interfaces.
-[2022-09-20 21:24:06.284] [INFO ] [Test worker] org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
-[2022-09-20 21:24:06.330] [INFO ] [Test worker] org.hibernate.Version HHH000412: Hibernate ORM core version 5.6.10.Final
-[2022-09-20 21:24:06.469] [INFO ] [Test worker] org.hibernate.annotations.common.Version HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-[2022-09-20 21:24:06.559] [INFO ] [Test worker] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
-[2022-09-20 21:24:06.620] [INFO ] [Test worker] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
-[2022-09-20 21:24:06.647] [INFO ] [Test worker] org.hibernate.dialect.Dialect HHH000400: Using dialect: org.hibernate.dialect.MariaDB106Dialect
-[2022-09-20 21:24:07.139] [INFO ] [Test worker] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-[2022-09-20 21:24:07.146] [INFO ] [Test worker] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
-[2022-09-20 21:24:07.653] [WARN ] [Test worker] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-[2022-09-20 21:24:08.212] [INFO ] [Test worker] com.springboot.test.TestApplicationTests Started TestApplicationTests in 3.159 seconds (JVM running for 4.721)
-[2022-09-20 21:24:08.344] [INFO ] [SpringApplicationShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
-[2022-09-20 21:24:08.347] [INFO ] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
-[2022-09-20 21:24:08.354] [INFO ] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+[2022-09-21 19:40:18.787] [INFO ] [Test worker] com.springboot.test.controller.ProductControllerTest Starting ProductControllerTest using Java 11.0.16.1 on risker with PID 46324 (started by roakf in C:\dev\spring_study\test)
+[2022-09-21 19:40:18.792] [INFO ] [Test worker] com.springboot.test.controller.ProductControllerTest No active profile set, falling back to 1 default profile: "default"
+[2022-09-21 19:40:20.066] [INFO ] [Test worker] org.springframework.boot.test.mock.web.SpringBootMockServletContext Initializing Spring TestDispatcherServlet ''
+[2022-09-21 19:40:20.066] [INFO ] [Test worker] org.springframework.test.web.servlet.TestDispatcherServlet Initializing Servlet ''
+[2022-09-21 19:40:20.067] [INFO ] [Test worker] org.springframework.test.web.servlet.TestDispatcherServlet Completed initialization in 1 ms
+[2022-09-21 19:40:20.089] [INFO ] [Test worker] com.springboot.test.controller.ProductControllerTest Started ProductControllerTest in 1.663 seconds (JVM running for 3.015)
+[2022-09-21 19:41:21.521] [INFO ] [Test worker] com.springboot.test.controller.ProductControllerTest Starting ProductControllerTest using Java 11.0.16.1 on risker with PID 14264 (started by roakf in C:\dev\spring_study\test)
+[2022-09-21 19:41:21.522] [INFO ] [Test worker] com.springboot.test.controller.ProductControllerTest No active profile set, falling back to 1 default profile: "default"
+[2022-09-21 19:41:22.757] [INFO ] [Test worker] org.springframework.boot.test.mock.web.SpringBootMockServletContext Initializing Spring TestDispatcherServlet ''
+[2022-09-21 19:41:22.757] [INFO ] [Test worker] org.springframework.test.web.servlet.TestDispatcherServlet Initializing Servlet ''
+[2022-09-21 19:41:22.759] [INFO ] [Test worker] org.springframework.test.web.servlet.TestDispatcherServlet Completed initialization in 2 ms
+[2022-09-21 19:41:22.790] [INFO ] [Test worker] com.springboot.test.controller.ProductControllerTest Started ProductControllerTest in 1.607 seconds (JVM running for 2.883)
+[2022-09-21 20:04:01.869] [INFO ] [Test worker] com.springboot.test.controller.ProductControllerTest Starting ProductControllerTest using Java 11.0.16.1 on risker with PID 40796 (started by roakf in C:\dev\spring_study\test)
+[2022-09-21 20:04:01.871] [INFO ] [Test worker] com.springboot.test.controller.ProductControllerTest No active profile set, falling back to 1 default profile: "default"
+[2022-09-21 20:04:03.555] [INFO ] [Test worker] org.springframework.boot.test.mock.web.SpringBootMockServletContext Initializing Spring TestDispatcherServlet ''
+[2022-09-21 20:04:03.555] [INFO ] [Test worker] org.springframework.test.web.servlet.TestDispatcherServlet Initializing Servlet ''
+[2022-09-21 20:04:03.556] [INFO ] [Test worker] org.springframework.test.web.servlet.TestDispatcherServlet Completed initialization in 1 ms
+[2022-09-21 20:04:03.585] [INFO ] [Test worker] com.springboot.test.controller.ProductControllerTest Started ProductControllerTest in 2.158 seconds (JVM running for 3.588)
+[2022-09-21 20:04:36.498] [INFO ] [Test worker] com.springboot.test.controller.ProductControllerTest Starting ProductControllerTest using Java 11.0.16.1 on risker with PID 9892 (started by roakf in C:\dev\spring_study\test)
+[2022-09-21 20:04:36.499] [INFO ] [Test worker] com.springboot.test.controller.ProductControllerTest No active profile set, falling back to 1 default profile: "default"
+[2022-09-21 20:04:37.855] [INFO ] [Test worker] org.springframework.boot.test.mock.web.SpringBootMockServletContext Initializing Spring TestDispatcherServlet ''
+[2022-09-21 20:04:37.856] [INFO ] [Test worker] org.springframework.test.web.servlet.TestDispatcherServlet Initializing Servlet ''
+[2022-09-21 20:04:37.857] [INFO ] [Test worker] org.springframework.test.web.servlet.TestDispatcherServlet Completed initialization in 1 ms
+[2022-09-21 20:04:37.882] [INFO ] [Test worker] com.springboot.test.controller.ProductControllerTest Started ProductControllerTest in 1.742 seconds (JVM running for 3.088)
